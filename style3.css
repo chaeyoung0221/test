@@ -1,0 +1,185 @@
+body {
+    height: -50vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0); 
+  overflow-x: hidden;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 30px;
+  line-height: 1.6;
+  
+}
+
+header {
+  background-color: none;
+  height: 8vh;
+  position: relative;
+  left: 15px;
+  z-index: 1;
+  display: flex;
+ justify-content: space-between; 
+  align-items: center; 
+  padding: 0.5rem 1rem; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  top: 30px;
+  left: 1115px;  /* 원하는 만큼 왼쪽으로 이동 */
+}
+
+
+
+.비건{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.recipe-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.recipe-wrapper h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #2ecc71;
+}
+
+.recipe-meta {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.recipe-meta span {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.recipe-section {
+  margin-bottom: 25px;
+}
+
+.recipe-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  border-left: 5px solid #2ecc71;
+  padding-left: 10px;
+  color: #2c3e50;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 6px;
+}
+
+.tip-box {
+  background-color: #ecf9f1;
+  border-left: 4px solid #2ecc71;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #2f4f4f;
+}
+
+.tip-box::before {
+  content: "💡 팁";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f8f9fa;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.nutrition-horizontal {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 95%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.nutrition-horizontal h2 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  color: #2c3e50;
+}
+
+.serving-info {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+table thead {
+  background-color: #e9f5ee;
+}
+
+table th, table td {
+  padding: 12px 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+table td {
+  background-color: #fdfdfd;
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+  color: #888;
+}
+.back-button {
+  position: absolute;
+  bottom: -1250px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  width: 700px;
+  height: 40px;
+  background-color:#F9A621;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+.back-button:hover {
+  background-color: #ff9d00;
+}
